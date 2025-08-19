@@ -1,7 +1,7 @@
 # Small Office Network — VLANs, Trunking, Router-on-a-Stick, DHCP
 
 ## Summary
-A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 802.1Q trunks, router-on-a-stick inter-VLAN routing, and centralized DHCP. Good for demonstrating L2/L3 fundamentals and simple network automation.
+A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 802.1Q trunks, router-on-a-stick inter-VLAN routing, and centralized DHCP, demonstrating L2/L3 fundamentals and simple network automation.
 
 ## Topology
 ![Topology](topology/office_vlan_topology.png)
