@@ -5,32 +5,24 @@ This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN r
 ---
 
 ## 🖼️ Network Topology
-```
-|Internet | R1 --- Gig0/1 | SW1 --- Fa0/1 | HR-PC1
-|         |               |         Fa0/2 | HR-PC2
-|         |               |         Fa0/3 | IT-PC1
-|         |               |         Fa0/4 | IT-PC2
-|         |               |         Fa0/24| SW2    --- Fa0/1 | Finance-PC1
-|         |               |               |        --- Fa0/2 | Finance-PC2
-```
+
 - **R1** – Router-on-a-stick (handles inter-VLAN routing + DHCP)
 - **SW1** – Core switch for HR + IT VLANs
 - **SW2** – Access switch for Finance VLAN
 
-| Device       | Interface         | Connected To       | Port (DHCP)  | VLAN       |
-|--------------|-------------------|--------------------|--------------|------------|
-| Internet     | -                 | R1                 | -            | -          |
-| R1           | Gig0/1| SW1                | -            | -          |
-| R1           | Gig0/1| SW2                | -            | -          |
-| SW1          | Fa0/1   | HR-PC1             | -            | VLAN 10 (HR) |
-| SW1          | Fa0/2   | HR-PC2             | -            | VLAN 10 (HR) |
-| SW1          | Fa0/3   | IT-PC1             | -            | VLAN 20 (IT) |
-| SW1          | Fa0/4   | IT-PC2             | -            | VLAN 20 (IT) |
-| SW2          | Fa0/1   | Finance-PC1        | -            | VLAN 30 (Finance) |
-| SW2          | Fas0/2   | Finance-PC2        | -            | VLAN 30 (Finance) |
----
+| Device   | Interface      | Connected To   | Port       | VLAN    |
+|----------|----------------|----------------|------------|---------|
+| Internet | -              | R1             | -          | -       |
+| R1       | Gig0/0         | SW1 (Gi0/1)    | Trunk      | VLAN 10,20,30 |
+| SW1      | Fa0/1          | HR-PC1         | Access     | VLAN 10 |
+| SW1      | Fa0/2          | HR-PC2         | Access     | VLAN 10 |
+| SW1      | Fa0/3          | IT-PC1         | Access     | VLAN 20 |
+| SW1      | Fa0/4          | IT-PC2         | Access     | VLAN 20 |
+| SW1      | Gig0/2         | SW2 (Gi0/1)    | Trunk      | VLAN 10,20,30 |
+| SW2      | Fa0/1          | Finance-PC1    | Access     | VLAN 30 |
+| SW2      | Fa0/2          | Finance-PC2    | Access     | VLAN 30 |
 
-## ⚙️ VLANs
+ ⚙️ VLANs
 | VLAN ID | Department | Subnet            | Default GW    |
 |---------|------------|------------------|---------------|
 | 10      | HR         | 192.168.10.0/24  | 192.168.10.1  |
@@ -70,5 +62,5 @@ This topology mimics **real-world enterprise networks** where VLAN segmentation 
 
 ---
 
-👨‍💻 Author: *Your Name Here*  
+👨‍💻 Author: *LIM ZI YI*  
 📌 Repository: [GitHub link once uploaded]
