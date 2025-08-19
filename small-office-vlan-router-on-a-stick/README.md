@@ -7,7 +7,7 @@ A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 80
 ![Topology](topology/office_vlan_topology.png)
 
 ## DHCP Demo 
-![DHCP demo](demo/dhcp-demo.gif)
+![DHCP demo](demo/dchp-demo.gif)
 
 ## What you’ll find
 - `topology/office_vlan_topology.pkt` — Packet Tracer file (open in Cisco Packet Tracer).
