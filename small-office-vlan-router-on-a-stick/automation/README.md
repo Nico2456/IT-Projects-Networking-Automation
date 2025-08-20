@@ -8,7 +8,7 @@ https://www.gns3.com/
 ```
 This automation sim is a data pipeline of:
 ```python
- automation.py <-> netmiko library <-> Telnet/SSH connection <-> Router R1
+ automation.py <-> Netmiko Library <-> Telnet/SSH connection <-> Router R1
 ```
 ```mermaid
 graph TD
