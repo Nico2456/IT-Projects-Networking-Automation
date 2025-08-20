@@ -1,7 +1,7 @@
 # Small Office Network — VLANs, Trunking, Router-on-a-Stick, DHCP
 
 ## Summary
-A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 802.1Q trunks, router-on-a-stick inter-VLAN routing, and centralized DHCP, demonstrating L2/L3 fundamentals and simple network automation.
+A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 802.1Q trunks, router-on-a-stick inter-VLAN routing, and centralized DHCP, demonstrating L2/L3 fundamentals and simple network automation using Python.
 
 ## Topology
 ![Topology](topology/office_vlan_topology.png)
@@ -10,8 +10,6 @@ A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 80
 ![DHCP demo](demo/dchp-demo.gif)
 
 ## Automation Demo
-![Automation demo](automation/Network Automation using Python.gif)
-
 
 ## What you’ll find
 - `topology/office_vlan_topology.pkt` — Packet Tracer file (open in Cisco Packet Tracer).
