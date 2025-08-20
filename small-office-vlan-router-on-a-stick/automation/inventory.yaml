@@ -1,3 +1,5 @@
+# inventory.YAML contains the list of device infos, hosts and ports
+# for automation.py
 devices:
   R1:
     host: 127.0.0.1
