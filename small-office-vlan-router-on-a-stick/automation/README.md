@@ -32,4 +32,4 @@ After running the GNS3 sim, map the telnet address of router R1 in `inventory.ya
 ```python
 python3 automation.py
 ```
-VOILA
+And ✨VOILA✨
