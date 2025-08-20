@@ -1,5 +1,5 @@
 # Office VLAN Topology with Router-on-a-Stick + DHCP
---
+
 This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN routing** and centralized DHCP, simulated using **Cisco Packet Tracer**. This topology mimics **real-world enterprise networks** where VLAN segmentation is used for security and performance, with centralized DHCP for management efficiency.
 
 ## 🖼️ Network Topology
