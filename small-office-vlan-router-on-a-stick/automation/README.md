@@ -20,9 +20,9 @@ graph TD
     B -->|Processes output| A
 ```
 ## Setup GNS3 VM
-![]()
+![automation setup](automation-gns3sim-setups.png)
 
 ## Configure topology and run simulation
 ![automation topology](automation-gns3sim-topology.png)
 
-## 
+## Run automation codes
