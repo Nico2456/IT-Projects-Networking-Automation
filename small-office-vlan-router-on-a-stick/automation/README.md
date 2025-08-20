@@ -28,7 +28,7 @@ The switches used are not SSH-enabled, hence only routers can interact with the 
 ![automation topology](automation-gns3sim-topology.png)
 
 ## Run automation codes
-Map the telnet address of router R1 in inventory.yaml. Via a terminal, run the automation.py script
+Map the telnet address of router R1 in `inventory.yaml`. Via a terminal, run the automation.py script
 ```python
 python3 automation.py
 ```
