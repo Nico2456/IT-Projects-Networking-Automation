@@ -5,11 +5,12 @@ This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN r
 ---
 
 ## 🖼️ Network Topology
-
+ ⚙️ Networking Devices
 - **R1** – Router-on-a-stick (handles inter-VLAN routing + DHCP)
 - **SW1** – Core switch for HR + IT VLANs
 - **SW2** – Access switch for Finance VLAN
 
+ ⚙️ Connection details
 | Device   | Interface      | Connected To   | Port       | VLAN    |
 |----------|----------------|----------------|------------|---------|
 | Internet | -              | R1             | -          | -       |
@@ -22,7 +23,7 @@ This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN r
 | SW2      | Fa0/1          | Finance-PC1    | Access     | VLAN 30 |
 | SW2      | Fa0/2          | Finance-PC2    | Access     | VLAN 30 |
 
- ⚙️ VLANs
+ ⚙️ VLANs configured
 | VLAN ID | Department | Subnet            | Default GW    |
 |---------|------------|------------------|---------------|
 | 10      | HR         | 192.168.10.0/24  | 192.168.10.1  |
