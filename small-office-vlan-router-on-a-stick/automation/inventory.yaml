@@ -1,0 +1,15 @@
+devices:
+  R1:
+    host: 127.0.0.1
+    port: 5000        # GNS3 console port for R1
+    device_type: cisco_ios_telnet
+    username: cisco
+    password: cisco
+
+children:
+  B:
+    hosts: {}   # for SW1 if SSH available
+  C:
+    hosts: {}   # for SW2 if SSH available
+
+
