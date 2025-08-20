@@ -1,5 +1,0 @@
-# Ping Test Plan
-1. HR-PC1 → IT-PC1
-2. IT-PC1 → FINANCE-PC1
-3. FINANCE-PC2 → 8.8.8.8 (internet DNS simulation if static route added)
-4. Cross-pings to verify DHCP worked
