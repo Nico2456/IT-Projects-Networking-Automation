@@ -1,4 +1,4 @@
-## Networking Automation
+# Networking Automation
 Manually populate configs of networking devices are repetitive jobs that can be carried out by running automation scripts. Network engineers can moderate configs from a YAML file and push them automatically to a huge amount of devices in no time.
 
 ## Download GNS3 VM Simulator
