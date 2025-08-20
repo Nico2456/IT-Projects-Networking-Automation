@@ -6,4 +6,4 @@ small-office-vlan-router-on-a-stick (with automation)
 >>>> inter-VLAN routing, and centralized DHCP, demonstrating L2/L3 fundamentals and
 >>>> simple network automation using Python.
 
->>>>Reserve for future projects
+>>>> [Reserve for future projects]
