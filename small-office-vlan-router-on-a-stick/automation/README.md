@@ -26,3 +26,7 @@ graph TD
 ![automation topology](automation-gns3sim-topology.png)
 
 ## Run automation codes
+Map the telnet address of router R1 in inventory.yaml. Via a terminal, run the automation.py script
+```python
+Python3 automation.py
+```
