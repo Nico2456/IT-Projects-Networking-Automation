@@ -13,6 +13,7 @@ VLANs, trunking (802.1Q), inter-VLAN routing (router-on-a-stick), DHCP, basic ne
 ![DHCP demo](demo/dchp-demo.gif)
 
 ## ⚙️ Automation Demo
+Populate networking device's configuration using Python and GNS3 VM sim.
 ![Automation Demo](automation/automation-demo.gif)
 
 ## What you’ll find
