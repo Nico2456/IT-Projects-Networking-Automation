@@ -28,7 +28,8 @@ This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN r
 | 20      | IT         | 192.168.20.0/24  | 192.168.20.1  |
 | 30      | Finance    | 192.168.30.0/24  | 192.168.30.1  |
 
-Based on the above topology, when creating the topology in Cisco packet Tracer, the configs files r1.cfg, sw1.cfg, and sw2.cfg, are used to configure r1, sw1, and sw2 in their CLI interface respectively. 
+-
+Based on the above topology, when creating the topology in Cisco packet Tracer, the configs files r1.cfg, sw1.cfg, and sw2.cfg, are used to configure r1, sw1, and sw2 in their *CLI interface* respectively. 
 ---
 
 ## 🚀 Features
