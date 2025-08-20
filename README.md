@@ -1,5 +1,5 @@
 # IT-Projects-Networking-Automation
-It's a repository of Cisco Packet Tracer Projects to showcase my Networking skills, with sample automation script using python netmiko scripting. Linkedin: https://www.linkedin.com/in/zi-yi-lim-997878217/
+It's a repository of Cisco Packet Tracer Projects to showcase my Networking skills, with sample automation script using python netmiko scripting. 
 
 ## small-office-vlan-router-on-a-stick (with automation)
 
