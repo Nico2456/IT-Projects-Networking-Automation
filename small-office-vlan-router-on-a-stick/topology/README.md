@@ -2,6 +2,8 @@
 
 This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN routing** and centralized DHCP, simulated using **Cisco Packet Tracer**.
 
+## 🔮 Notes
+This topology mimics **real-world enterprise networks** where VLAN segmentation is used for security and performance, with centralized DHCP for management efficiency.
 ---
 
 ## 🖼️ Network Topology
@@ -58,10 +60,5 @@ This project demonstrates **enterprise-style VLAN segmentation with inter-VLAN r
 
 ---
 
-## 🔮 Notes
-This topology mimics **real-world enterprise networks** where VLAN segmentation is used for security and performance, with centralized DHCP for management efficiency.
 
 ---
-
-👨‍💻 Author: *LIM ZI YI*  
-📌 Repository: [GitHub link once uploaded]
