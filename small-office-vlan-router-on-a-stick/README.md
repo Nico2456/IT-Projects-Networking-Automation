@@ -10,7 +10,8 @@ A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 80
 ![DHCP demo](demo/dchp-demo.gif)
 
 ## Automation Demo
-![Automation demo](automation/Network Automation using Python.gif) 
+![Automation demo](automation/Network Automation using Python.gif)
+
 
 ## What you’ll find
 - `topology/office_vlan_topology.pkt` — Packet Tracer file (open in Cisco Packet Tracer).
