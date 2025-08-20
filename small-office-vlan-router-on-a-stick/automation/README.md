@@ -20,6 +20,7 @@ graph TD
     B -->|Processes output| A
 ```
 ## Setup GNS3 VM
+When prompted to download GNS3 VM, follow insturctions to run the GNS3 in a Virtual Environment. Then setup the Ports to a localhost IP like 127.0.0.1
 ![automation setup](automation-gns3sim-setups.png)
 
 ## Configure topology and run simulation
