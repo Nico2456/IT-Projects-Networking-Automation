@@ -24,11 +24,12 @@ When prompted to download a virtual machine (VM) in GNS3, follow insturctions to
 ![automation setup](automation-gns3sim-setups.png)
 
 ## Configure topology and run simulation
-The switches used are not SSH-enabled, hence only routers can interact with the automation data pipeline. Router image used is Cisco 3725, which is imported from online sources.
+The switches used are not SSH-enabled, hence only routers can interact with the automation data pipeline. Router image used is Cisco 3725, which is imported from online sources. On the upper right panel, the router's Telnet/SSH address is 127.0.0.1:5000 
 ![automation topology](automation-gns3sim-topology.png)
 
 ## Run automation codes
-Map the telnet address of router R1 in `inventory.yaml`. Via a terminal, run the automation.py script
+After running the GNS3 sim, map the telnet address of router R1 in `inventory.yaml`. Via a terminal, run the automation.py script
 ```python
 python3 automation.py
 ```
+VOILA
