@@ -19,5 +19,10 @@ graph TD
     C -->|Relays output| B
     B -->|Processes output| A
 ```
+## Setup GNS3 VM
+![]()
+
 ## Configure topology and run simulation
+![automation topology](automation-gns3sim-topology.png)
+
 ## 
