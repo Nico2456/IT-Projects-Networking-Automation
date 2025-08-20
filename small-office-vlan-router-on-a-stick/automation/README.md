@@ -24,6 +24,7 @@ When prompted to download GNS3 VM, follow insturctions to run the GNS3 in a Virt
 ![automation setup](automation-gns3sim-setups.png)
 
 ## Configure topology and run simulation
+The switches used are not SSH-enabled, hence only routers can interact with the automation data pipeline. Router image used is Cisco 3725, which is imported from online sources.
 ![automation topology](automation-gns3sim-topology.png)
 
 ## Run automation codes
