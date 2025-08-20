@@ -3,6 +3,9 @@
 ## Summary
 A small-office network lab demonstrating VLAN segmentation (HR, IT, Finance), 802.1Q trunks, router-on-a-stick inter-VLAN routing, and centralized DHCP, demonstrating L2/L3 fundamentals and simple network automation using Python.
 
+## Skills demonstrated
+VLANs, trunking (802.1Q), inter-VLAN routing (router-on-a-stick), DHCP, basic network automation with Python.
+
 ## 🔗 Topology
 ![Topology](topology/office_vlan_topology.png)
 
@@ -34,6 +37,5 @@ Netmiko script is provided as an example. Packet Tracer devices are not reachabl
 - a physical lab, or
 - a virtual lab (GNS3/EVE-NG/CML) with SSH-enabled images.
 
-## Skills demonstrated
-VLANs, trunking (802.1Q), inter-VLAN routing (router-on-a-stick), DHCP, basic network automation with Python.
+
 
